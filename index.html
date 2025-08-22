@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+ <title>Наш альбом</title>
+ <link rel="stylesheet" href="styles.css" />
+ <script src="app.js" defer></script>
+</head>
+<body>
+ <header class="site-header">
+ <nav class="topbar">
+ <a href="#s1" class="logo">❤</a>
+ <div class="nav-wrapper">
+   <button class="burger" aria-label="Toggle menu">☰</button>
+   <ul class="nav">
+     <li><a href="#s1">Вступление</a></li>
+     <li><a href="#s2">1</a></li>
+     <li><a href="#s3">2</a></li>
+     <li><a href="#s4">3</a></li>
+     <li><a href="#s5">4</a></li>
+     <li><a href="#s6">5</a></li>
+     <li><a href="#s7">6</a></li>
+     <li><a href="#s8">7</a></li>
+     <li><a href="#s9">8</a></li>
+     <li><a href="#s10">9</a></li>
+     <li><a href="#s11">10</a></li>
+   </ul>
+ </div>
+ </nav>
+ </header>
+ <main>
+<!-- SECTION 1: Hero / Вступление -->
+ <section id="s1" class="section hero">
+ <div class="decor heart" data-float="3" style="--x: 20%; --y: 30%; --r: 0deg;"></div>
+ <div class="decor star" data-float="2" style="--x: 70%; --y: 40%; --r: 15deg;"></div>
+ <div class="decor moon" data-float="4" style="--x: 50%; --y: 10%; --r: -10deg;"></div>
+ <div class="hero-inner">
+ <h1 class="hero-title">Люблю тебя больше, чем до луны и обратно</h1>
+ <p class="hero-sub">Ты мой коотиик!!!</p>
+ <button class="btn-next" data-next="#s2" aria-label="К следующей причине">Дальше →</button>
+ </div>
+ </section>
+<!-- SECTION 2: Причина 1 -->
+ <section id="s2" class="section reason split">
+ <div class="decor tape" style="--x: 15%; --y: 25%; --r: -5deg;"></div>
+ <div class="decor sparkle" style="--x: 85%; --y: 60%; --r: 0deg;"></div>
+ <div class="col text">
+ <h2>Причина №1</h2>
+ <p>Люблю твою улыбку!!!</p>
+ </div>
+ <figure class="col photo-frame tilt-right">
+ <img class="photo" src="./photos/smile.jpg" alt="Наша фотография 1" />
+ <figcaption class="caption">Мне так нравится, когда ты улыбаешься))🥹🥰</figcaption>
+ <div class="decor paperclip" style="--x: 50%; --y: -10%; --r: 0deg;"></div>
+ </figure>
+ </section>
+<!-- SECTION 3: Причина 2 -->
+ <section id="s3" class="section reason collage">
+ <div class="decor heart small" style="--x: 10%; --y: 75%; --r: 10deg;"></div>
+ <div class="decor star small" style="--x: 85%; --y: 15%; --r: -15deg;"></div>
+ <div class="stack">
+ <figure class="photo-frame tilt-left">
+ <img class="photo" src="./photos/2a.jpg" alt="Наша фотография 2a" />
+ <figcaption class="caption">Как поцелунки👄</figcaption>
+ <div class="decor pin" style="--x: 50%; --y: -5%; --r: 0deg;"></div>
+ </figure>
+ <figure class="photo-frame tilt-right">
+ <img class="photo" src="./photos/2b.jpg" alt="Наша фотография 2b" />
+ <figcaption class="caption">Так спокойно рядом с тобой 🥹</figcaption>
+ 
+ </figure>
+ </div>
+ <div class="note">
+ <h2>Причина №2</h2>
+ <p>Рядом с тобой я улыбаюсь! Ты моё солнышко 🌞</p>
+ </div>
+ </section>
+<!-- SECTION 4: Причина 3 -->
+<section id="s4" class="section reason flex in-view">
+  <div class="decor moon small" style="--x: 10%;--y: 80%;--r: 0deg;"></div>
+  <div class="decor sparkle" style="--x: 75%; --y: 20%; --r: 0deg;"></div>
+  <figure class="photo-frame tilt-left">
+  <img class="photo" src="./photos/3.jpg" alt="Наша фотография 3">
+  <figcaption class="caption">Такой СЕРЬЁЗНЫЙ кооот</figcaption>
+  <div class="decor heart" style="--x: 80%; --y: 90%; --r: -20deg;"></div>
+  </figure>
+  <div class="text-block">
+  <h2>Причина №3</h2>
+  <p>Даришь незабываемые эмоции!!!</p>
+  </div>
+  </section>
+<!-- SECTION 5: Причина 4 -->
+ <section id="s5" class="section reason collage">
+ <div class="decor tape" style="--x: 5%; --y: 50%; --r: 8deg;"></div>
+ <div class="decor pin" style="--x: 90%; --y: 30%; --r: 0deg;"></div>
+ <div class="stack">
+ <figure class="photo-frame tilt-right">
+ <img class="photo" src="./photos/4c.jpg" alt="Наша фотография 4" />
+ <figcaption class="caption">Чмок😙</figcaption>
+</figure>
+<div class="decor sparkle" style="--x: 10%; --y: 50%; --r: 0deg;"></div>
+ </div>
+ <div class="note">
+ <h2>Причина №4</h2>
+ <p>Всегда поддерживаешь меня 😻🫶</p>
+ </div>
+ </section>
+<!-- SECTION 6: Причина 5 -->
+<section id="s6" class="section reason split in-view">
+  <div class="decor heart" style="--x: 30%;--y: 12%;--r: 5deg;"></div>
+  <div class="decor star" style="--x: 60%; --y: 70%; --r: -10deg;"></div>
+  <div class="col text">
+  <h2>Причина №5</h2>
+  <p>Люблю с тобой дурачится😉</p>
+  </div>
+  <figure class="col photo-frame tilt-left">
+  <img class="photo" src="./photos/5.jpg" alt="Наша фотография 5">
+  <figcaption class="caption">Дед Пен)) Хехе</figcaption>
+  <div class="decor paperclip" style="--x: 50%; --y: -10%; --r: 0deg;"></div>
+  <div class="decor star small" style="--x: 20%; --y: 80%; --r: 0deg;"></div>
+  </figure>
+  </section>
+<!-- SECTION 7: Причина 6 -->
+<section id="s7" class="section reason flex in-view">
+  <div class="decor moon" style="--x: 13%;--y: 1%;--r: 15deg;"></div>
+  <div class="decor tape" style="--x: 80%; --y: 50%; --r: -8deg;"></div>
+  <figure class="photo-frame tilt-right">
+  <img class="photo" src="./photos/6а.jpg" alt="Наша фотография 6a">
+  <figcaption class="caption">Старается, котик😻</figcaption>
+  </figure>
+  <div class="text-block">
+  <h2>Причина №6</h2>
+  <p>Готов сделать 1000 фотографий для меня 📸</p>
+  </div>
+  <figure class="photo-frame tilt-left">
+  <img class="photo" src="./photos/6b.jpg" alt="Наша фотография 6b">
+  <figcaption class="caption">С цветочками на день рождение))</figcaption>
+  <div class="decor pin" style="--x: 50%; --y: -5%; --r: 0deg;"></div>
+  </figure>
+  </section>
+<!-- SECTION 8: Причина 7 -->
+ <section id="s8" class="section reason collage">
+ <div class="decor sparkle" style="--x: 40%; --y: 15%; --r: 0deg;"></div>
+ <div class="decor heart small" style="--x: 70%; --y: 85%; --r: 10deg;"></div>
+ <div class="stack">
+ <figure class="photo-frame tilt-right">
+ <img class="photo" src="./photos/7.jpg" alt="Наша фотография 7" />
+ <figcaption class="caption">Целуемся прямо в общественном месте)0)) Вызывайте администратора улицы!!!</figcaption>
+</figure>
+<div class="decor tape" style="--x: 10%; --y: 10%; --r: 5deg;"></div>
+<div class="decor star" style="--x: 80%; --y: 80%; --r: -15deg;"></div>
+ </div>
+ <div class="note">
+ <h2>Причина №7</h2>
+ <p>Как ты меня целуешь💘</p>
+ </div>
+ </section>
+<!-- SECTION 9: Причина 8 -->
+ <section id="s9" class="section reason split">
+ <div class="decor pin" style="--x: 25%; --y: 40%; --r: 0deg;"></div>
+ <div class="decor moon small" style="--x: 35%; --y: 60%; --r: 0deg;"></div>
+ <div class="col text">
+ <h2>Причина №8</h2>
+ <p>Мы с тобой еще та команда шило в попе!!!</p>
+ </div>
+ <div class="col stack">
+ <figure class="photo-frame tilt-left">
+ <img class="photo" src="./photos/8a.jpg" alt="Наша фотография 8a" />
+ <figcaption class="caption">Такие прикольные</figcaption>
+ </figure>
+ <figure class="photo-frame tilt-right">
+ <img class="photo" src="./photos/8b.jpg" alt="Наша фотография 8b" />
+ <figcaption class="caption">Такие фитоняшки))</figcaption>
+ <div class="decor paperclip" style="--x: 50%; --y: -10%; --r: 0deg;"></div>
+ </figure>
+ <figure class="photo-frame tilt-left">
+ <img class="photo" src="./photos/8c.jpg" alt="Наша фотография 8c" />
+ <figcaption class="caption">Я помню у тебя есть та кринж фотка!!!</figcaption>
+ </figure>
+ </div>
+ </section>
+<!-- SECTION 10: Причина 9 -->
+ <section id="s10" class="section reason flex">
+ <div class="decor heart" style="--x: 15%; --y: 25%; --r: -5deg;"></div>
+ <div class="decor heart small" style="--x: 85%; --y: 75%; --r: 5deg;"></div>
+ <div class="text-block">
+ <h2>Причина №9</h2>
+ <p>Кормишь меня и...</p>
+ </div>
+ <figure class="photo-frame tilt-right">
+ <img class="photo" src="./photos/9а.jpg" alt="Наша фотография 9a" />
+ <figcaption class="caption">ебешь 🫢...</figcaption>
+ <div class="decor sparkle" style="--x: 50%; --y: 50%; --r: 0deg;"></div>
+ </figure>
+ <figure class="photo-frame tilt-left">
+ <img class="photo" src="./photos/9b.jpg" alt="Наша фотография 9b" />
+ <figcaption class="caption">но не мозги))</figcaption>
+ </figure>
+ </section>
+<!-- SECTION 11: Причина 10 -->
+<section id="s11" class="section reason collage in-view">
+  <div class="decor star" style="--x: 10%; --y: 10%; --r: 10deg;"></div>
+  <div class="decor tape" style="--x: 90%; --y: 90%; --r: -10deg;"></div>
+  <div class="stack">
+  <figure class="photo-frame tilt-left">
+  <img class="photo" src="./photos/10c.jpg" alt="Наша фотография 10a">
+  <figcaption class="caption">Ты такой ответственный, целеустремлённый!</figcaption>
+  <div class="decor pin" style="--x: 50%; --y: -5%; --r: 0deg;"></div>
+  </figure>
+  <figure class="photo-frame tilt-right">
+  <img class="photo" src="./photos/10b.jpg" alt="Наша фотография 10b">
+  <figcaption class="caption">Мудрый! Не потому что только Мудрый))</figcaption>
+  </figure>
+  <figure class="photo-frame tilt-left">
+  <img class="photo" src="./photos/10а.jpg" alt="Наша фотография 10c">
+  <figcaption class="caption">Нежный, заботливый и мой Любимый Данечка!!!</figcaption>
+ </figure>
+ <div class="decor heart" style="--x: 10%;--y: 94%;--r: 0deg;"></div>
+  </div>
+  <div class="note">
+  <h2>Причина № ∞</h2>
+  <p>На самом деле не хватит причин, чтобы сказать, почему и как я тебя люблю!!!</p>
+  <button class="btn-top" aria-label="Вернуться наверх">Наверх ↑</button>
+  </div>
+  </section>
+ </main>
+</body>
+</html>
